@@ -7,6 +7,7 @@ package String;
 public class LongestRepeatingCharReplace {
     public static void main(String[] args) {
         characterReplacement("HotFIX", 1);
+        characterReplacement("Hot Fix revision2", 1);
         characterReplacement("AABsdfaABBA", 1);
         characterReplacement("AABABBA", 1);
         characterReplacement("master Revision 2", 1);
