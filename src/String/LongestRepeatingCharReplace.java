@@ -9,6 +9,7 @@ public class LongestRepeatingCharReplace {
         characterReplacement("HotFIX", 1);
         characterReplacement("AABsdfaABBA", 1);
         characterReplacement("AABABBA", 1);
+        characterReplacement("master Revision 2", 1);
     }
 
     static public int characterReplacement(String s, int k) {
