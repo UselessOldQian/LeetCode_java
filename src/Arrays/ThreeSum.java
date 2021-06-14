@@ -12,7 +12,7 @@ import java.util.Arrays;
 public class ThreeSum {
     public static void main(String[] args) {
         List<List<Integer>> ans = threeSum(new int[]{-1,0,1,2,-1,-4});
-
+        List<List<Integer>> ans2 = threeSum(new int[]{-1,0,3,2,-1,-4});
     }
 
     public static List<List<Integer>> threeSum(int[] nums) {
