@@ -8,10 +8,6 @@ import java.util.*;
  */
 public class WordLadder {
     public static void main(String[] args) {
-        char[] chars = s.toCharArray();
-        chars[0] = '1';
-        System.out.println(s);
-        System.out.println(new String(chars));
         System.out.println(ladderLength("hit","dot",
                 new ArrayList<String>(){{add("hot");add("dot");}}));
     }
