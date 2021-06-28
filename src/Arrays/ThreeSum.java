@@ -11,6 +11,13 @@ import java.util.Arrays;
  */
 public class ThreeSum {
     public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder();
+        String a = "asdfas";
+        String b = "Asdf";
+        a += b.charAt(2);
+        System.out.println(a);
+        System.out.println(a.length());
+        System.out.println(a.substring(0,a.length()-1));
         List<List<Integer>> ans = threeSum(new int[]{-1,0,1,2,-1,-4});
         List<List<Integer>> ans2 = threeSum(new int[]{-1,0,3,2,-1,-4});
     }
