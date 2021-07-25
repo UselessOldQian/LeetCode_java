@@ -9,7 +9,6 @@ import java.util.HashMap;
 public class MaxScore {
     public static void main(String[] args) {
         HashMap<Integer, String> map = new HashMap<>();
-        map.computeIfAbsent();
 
         int[][] stu = new int[][]{{1,1,0},{1,0,1},{0,0,1}};
         int[][] men = new int[][]{{1,0,0},{0,0,1},{1,1,0}};
